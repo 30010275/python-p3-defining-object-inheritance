@@ -1,4 +1,6 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        """Override the go method to provide a louder engine sound."""
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
